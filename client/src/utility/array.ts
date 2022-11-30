@@ -9,3 +9,9 @@ export const arrayPartition = <T>(
 
   return [pass, fail];
 };
+
+export const insertAt = <T>(arr: T[], index: number, element: T): T[] => [
+  ...arr.slice(0, index),
+  element,
+  ...arr.slice(index + 1),
+];

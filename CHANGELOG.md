@@ -1,3 +1,28 @@
+### v2.4.1 (2022-11-30)
+Matt Horwood
+
+- update kubernetes to 0.17.1
+- update axios to 0.27.2
+- update sequelize to 6.25.5
+- update sqlite3 to 5.1.2
+- update ws to 8.11.0
+
+### v2.4.0 (2022-11-27)
+Code georgesg/flame
+
+- **Major change - replaced `redux` with `jotai` for client state management.**
+- Enabled experimental support for app icons from [dashboard-icons](https://github.com/walkxcode/Dashboard-Icons)
+- Added hover effects for Section Headlines
+- Replaced dropdowns with checkboxes for True/False settings
+- Tweak UI margins to look closer to SUI
+
+Also incorporates:
+- Automatically clear search bar ([pawelmalak/flame#265](https://github.com/pawelmalak/flame/pull/265) by @IDevJoe)
+- Enable non-root container build ([pawelmalak/flame#309](https://github.com/pawelmalak/flame/pull/309) by @luckyf)
+- bugfix: sameTab does not work if prefix is localSearch ([pawelmalak/flame#284](https://github.com/pawelmalak/flame/pull/284) by @pmjklemm)
+- Allow the image to run as non-root ([pawelmalak/flame#356](https://github.com/pawelmalak/flame/pull/356) by @glitchcrab)
+- Enforce no border-radius on search bar ([pawelmalak/flame#395](https://github.com/pawelmalak/flame/pull/395) by @davidchalifoux)
+
 ### v2.3.0 (2022-03-25)
 - Added custom theme editor ([#246](https://github.com/pawelmalak/flame/issues/246))
 - Added option to set secondary search provider ([#295](https://github.com/pawelmalak/flame/issues/295))
