@@ -1,5 +1,14 @@
+### v2.4.1 (2022-11-30)
+Matt Horwood
+
+- update kubernetes to 0.17.1
+- update axios to 0.27.2
+- update sequelize to 6.25.5
+- update sqlite3 to 5.1.2
+- update ws to 8.11.0
+
 ### v2.4.0 (2022-11-27)
-First release under mhzawadi/flame.
+Code georgesg/flame
 
 - **Major change - replaced `redux` with `jotai` for client state management.**
 - Enabled experimental support for app icons from [dashboard-icons](https://github.com/walkxcode/Dashboard-Icons)
